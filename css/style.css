@@ -24,6 +24,7 @@ p, li {
 }
 
 .hero-unit {
+	color: black !important;
 	background-color: yellow;
 	border-bottom: 6px ridge #bbb;
 }
@@ -47,6 +48,65 @@ p, li {
 	background-color: black;
 }
 
+.expect {
+	color: black;
+	background-color: yellow;
+}
+
+.directions {
+	color: yellow;
+	background-color: black;
+}
+
+.dont-forget {
+	color: black;
+	background-color: yellow;
+}
+
+.permitted {
+	list-style-type: "\2714";
+}
+
+ul.permitted li::marker {
+  color: chartreuse !important;
+  display: inline-block;
+}
+
+.permitted li {
+	padding-left: 10px;
+}
+
+.prohibited {
+	list-style-type: "\2716";
+}
+
+.prohibited li {
+	padding-left: 10px;
+}
+
+ul.prohibited li::marker {
+  color: red !important;
+  display: inline-block;
+}
+
+.packing-list li {
+	padding-left: 10px;
+}
+
+.this-not-that {
+	background-color: black;
+	color: yellow;
+}
+
+footer {
+	background-color: yellow;
+	color: black !important;
+	font-family: "colt", serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size:1.5vw; 
+}
+
 h2, h3, h4 {
 	font-family: "clarendon-wide-sc", sans-serif;
 	font-weight: 700;
@@ -63,7 +123,7 @@ ul {
 
 .btn-primary {
 	border-radius: 0;
-	padding: 1rem 5rem;
+	padding: 1rem 2rem;
 	font-size: 2.5rem;
 	font-family: "filmotype-wand";
 	color: black;
